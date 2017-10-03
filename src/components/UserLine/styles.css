@@ -1,0 +1,38 @@
+.userline.userline-wrapper {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+.userline.userline-wrapper:hover {
+  background-color: #F5F5F5;
+}
+
+.userline.userline-contactinfo {
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  padding-top: 12px;
+}
+
+.userline.userline-borderline {
+  height: 1px;
+  width: calc(100% - 24px - 64px - 20px);
+  margin-left: calc(24px + 64px + 20px);
+  border-bottom: 1px solid #BDBDBD;
+}
+
+.userline.userline-name {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.userline.userline-email {
+  color: #9E9E9E;
+}

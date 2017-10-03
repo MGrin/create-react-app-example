@@ -1,0 +1,12 @@
+.list {
+
+}
+
+.list.list-wrapper {
+  overflow-y: auto;
+  max-height: calc(100vh - 40px - 77px - 48px - 64px);
+}
+
+.list.list-item {
+
+}

@@ -1,0 +1,24 @@
+.page {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.central {
+  width: 100%;
+}
+
+.left {
+  display: none;
+}
+
+@media (min-width: 767px) {
+  .central {
+    width: calc(100% - 254px);
+  }
+  
+  .left {
+    width: 254px;
+    display: inherit;
+  }
+}
